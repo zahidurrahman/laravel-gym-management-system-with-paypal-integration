@@ -61,6 +61,11 @@ Route::post('/edit_bmi', 'BmiController@edit_bmi')->name('edit_bmi');
 Route::get('/manage_user', function () {
     return view('admin.manage_user.user_list');
 });
+Route::get('/add_user', function () {
+    return view('admin.manage_user.add_user');
+});
+Route::post('/add_user', 'HomeController@add_user')->name('add_user');
+
 Route::get('manage_payment', 'PaymentController@show_all')->name('manage-payment');
 //Route::get('/manage_payment', function () {
 //    return view('admin.manage_payment.manage_payment');
@@ -106,3 +111,27 @@ Route::get('/view_workout', function () {
     return view('trainer.workout.view_workout');
 });
 Route::get('/del_workout/{id}', 'WorkoutController@del_workout')->name('del_workout');
+//-------------------appointment -----
+Route::get('/manage_appointment', function () {
+    return view('user.appoinment.all');
+});
+Route::get('/add_appointment', function () {
+    return view('user.appoinment.add');
+});
+Route::post('/add_appointment', 'AppoinmentController@store')->name('add_appointment');
+Route::get('/del_appointment/{id}', 'AppoinmentController@del_appointment')->name('del_appointment');
+//--------------------------------------------------------------------------------
+Route::get('/appointment_all', function () {
+    return view('trainer.appointment_all');
+});
+
+Route::get('/approve_appointment', function () {
+    return view('trainer.approve');
+});
+Route::post('/approve_appointment', 'AppoinmentController@approve')->name('approve_appointment');
+
+Route::get('/edit_profile', function () {
+    return view('user.edit_profile');
+});
+
+Route::post('/edit_profile', 'HomeController@edit_profile')->name('edit_profile');

@@ -18,7 +18,7 @@
 						<div class="contact-info">
 							<img src="img/icons/1-dark.png" alt="">
 							<div class="cf-text">
-								<p>1525  Awesome Lane, Los Angeles, CA</p>
+								<p>Jalan Ikram MMU,Cyberjaya</p>
 							</div>
 						</div>
 					</div>
@@ -27,8 +27,8 @@
 						<div class="contact-info">
 							<img src="img/icons/2-dark.png" alt="">
 							<div class="cf-text">
-								<p>+1 (603)535-4592</p>
-								<p>+1 (603)535-4556</p>
+								<p>+601145879</p>
+								<p>+62589745</p>
 							</div>
 						</div>
 					</div>
@@ -37,8 +37,8 @@
 						<div class="contact-info">
 							<img src="img/icons/3-dark.png" alt="">
 							<div class="cf-text">
-								<p>Contact@xgym.com</p>
-								<p>www.xgym.com</p>
+								<p>gym@gmail.com</p>
+								<p>info@gmail.com</p>
 							</div>
 						</div>
 					</div>

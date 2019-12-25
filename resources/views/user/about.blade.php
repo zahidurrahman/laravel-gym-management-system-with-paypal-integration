@@ -35,7 +35,7 @@
       </div>
     </div>
     <div class="text-center pt-4">
-      <a href="#" class="site-btn">Become a Member</a>
+      <a href="/register" class="site-btn">Become a Member</a>
     </div>
   </div>
 </section>

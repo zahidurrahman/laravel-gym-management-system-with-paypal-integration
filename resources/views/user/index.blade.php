@@ -5,7 +5,7 @@
     <div class="hero-text">
       <h2>Physical activity</h2>
       <h2>enhances <span>positive energy!</span></h2>
-      <a href="" class="site-btn">Join the Gym</a>
+      <a href="/register" class="site-btn">Join the Gym</a>
     </div>
   </div>
 </section>
@@ -28,7 +28,14 @@
             <i class="flaticon-004-dumbbell"></i>
           </div>
           <h4>Intense Workouts</h4>
-          <p>Donec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. </p>
+          <p>
+            To enjoy the glow of good health, you must exercise.
+            Exercise to stimulate, not to annihilate.
+            Training gives us an outlet for suppressed energies
+            created by stress and thus tones the spirit just as
+            exercise conditions the body.
+            Exercise is labor without weariness.
+          </p>
         </div>
       </div>
       <div class="col-md-4">
@@ -36,8 +43,15 @@
           <div class="ib-icon">
             <i class="flaticon-031-app-1"></i>
           </div>
-          <h4>Intense Workouts</h4>
-          <p>Donec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. </p>
+          <h4>Diet Accordingly</h4>
+          <p>
+            You need quality carbs, lean protein, heart-healthy
+            fats, and fluids. Your muscles rely on carbohydrate
+            foods like breads, cereals, pasta, rice, fruits,
+            and vegetables for quick energy. You need protein
+            for your muscles and for your blood cells,
+            which bring nutrients and oxygen to your muscles
+          </p>
         </div>
       </div>
       <div class="col-md-4">
@@ -45,8 +59,13 @@
           <div class="ib-icon">
             <i class="flaticon-010-podium"></i>
           </div>
-          <h4>Intense Workouts</h4>
-          <p>Donec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. </p>
+          <h4>Follow Your Trainer</h4>
+          <p>
+            The man who can motivate you is your trainer.
+            Just you need to pay attention to your trainer
+            for better progress and weight loss.Keep in touch with
+            him and be a healthy life.
+          </p>
         </div>
       </div>
     </div>
@@ -66,7 +85,7 @@
             <li><img src="img/check-icon.png" alt="">Risus commodo viverra maecenas accumsan lacus vel facilisis.</li>
             <li><img src="img/check-icon.png" alt="">Ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
           </ul>
-          <a href="#" class="site-btn">Become a Member</a>
+          <a href="/register" class="site-btn">Become a Member</a>
         </div>
       </div>
     </div>
@@ -155,40 +174,7 @@
 </section>
 <!-- Trainers section end -->
 
-<!-- BMI section -->
-<section class="bmi-section spad">
-  <div class="bmi-bg set-bg" data-setbg="img/bmi-bg.jpg"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-7 ml-auto">
-        <div class="section-title mb-0">
-          <h2>Calculate your <span>BMI</span></h2>
-          <p>Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum nec sapien.Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum nec sapien.</p>
-        </div>
-        <div class="bmi-calculator-warp">
-          <div class="bmi-calculator">
-            <div class="row">
-              <div class="col-sm-6">
-                <input type="text" placeholder="Weight (KG)" id="bmi-weight">
-              </div>
-              <div class="col-sm-6">
-                <input type="text" placeholder="Hight (M)" id="bmi-hight">
-              </div>
-              <div class="col-sm-6">
-                <button class="site-btn" id="bmi-submit">Calculate</button>
-              </div>
-              <div class="col-sm-6">
-                <input type="text" id="bmi-result" readonly>
-              </div>
-            </div>
-            <p>Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum nec sapien.Vivamus libero mauris, bibendum.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- BMI section end -->
+
 
 <!-- Newsletter section  -->
 <section class="newsletter-section set-bg" data-setbg="img/newsletter-bg.jpg">

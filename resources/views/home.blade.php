@@ -26,7 +26,7 @@
                                         <div class="card-body">
                                             <center>
                                                 <h2 class="card-title">
-                                                    <img src="https://image.flaticon.com/icons/svg/427/427735.svg" style="width:50px;height:50px;">
+                                                    <img src="https://image.flaticon.com/icons/png/512/2405/2405380.png" style="width:50px;height:50px;">
                                                     </h2>
                                                 <p>Manage User</p>
                                             </center>
@@ -54,12 +54,12 @@
                         <div class="row">
                             <div class="col">
                                 <a href="/add_trainer" style="text-decoration: none">
-                                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                                    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
 
                                         <div class="card-body">
                                             <center>
                                                 <h2 class="card-title">
-                                                    <img src="https://image.flaticon.com/icons/svg/427/427735.svg" style="width:50px;height:50px;">
+                                                    <img src="https://image.flaticon.com/icons/png/512/858/858137.png" style="width:50px;height:50px;">
                                                     </h2>
                                                 <p>Assign Trainer</p>
                                             </center>
@@ -81,7 +81,7 @@
                                         <div class="card-body">
                                             <center>
                                                 <h2 class="card-title">
-                                                    <img src="https://image.flaticon.com/icons/svg/427/427735.svg" style="width:50px;height:50px;">
+                                                    <img src="https://image.flaticon.com/icons/png/512/992/992747.png" style="width:50px;height:50px;">
                                                     </h2>
                                                 <p>View Meal Details</p>
                                             </center>
@@ -109,12 +109,12 @@
                         <div class="row">
                             <div class="col">
                                 <a href="/workout_view_all" style="text-decoration: none">
-                                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                                    <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
 
                                         <div class="card-body">
                                             <center>
                                                 <h2 class="card-title">
-                                                    <img src="https://image.flaticon.com/icons/svg/427/427735.svg" style="width:50px;height:50px;">
+                                                    <img src="https://image.flaticon.com/icons/png/512/2307/2307879.png" style="width:50px;height:50px;">
                                                     </h2>
                                                 <p>View Workout Details</p>
                                             </center>
@@ -125,19 +125,37 @@
                             </div>
                             <div class="col">
                                 <a href="/bmi_all" style="text-decoration: none;">
-                                    <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                                    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
                                         <div class="card-body">
                                             <center>
                                                 <h2 class="card-title">
-                                                    <img src="https://image.flaticon.com/icons/svg/327/327013.svg" style="width:50px;height:50px;">
+                                                    <img src="https://image.flaticon.com/icons/png/512/2307/2307885.png" style="width:50px;height:50px;">
                                                 </h2>
-                                                <p>Health Details</p>
+                                                <p>Update BMI</p>
                                             </center>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                         </div>
+                            <div class="row">
+                                <div class="col">
+                                    <a href="/manage_appointment" style="text-decoration: none">
+                                        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+
+                                            <div class="card-body">
+                                                <center>
+                                                    <h2 class="card-title">
+                                                        <img src="https://image.flaticon.com/icons/png/512/934/premium/934663.png" style="width:50px;height:50px;">
+                                                    </h2>
+                                                    <p>Manage Appointment</p>
+                                                </center>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
                         @endif
 
                         @if((Auth::user()->role =='2') && (Auth::user()->status =='1'))
@@ -149,7 +167,7 @@
                                       <div class="card-body">
                                           <center>
                                               <h2 class="card-title">
-                                                  <img src="https://image.flaticon.com/icons/svg/427/427735.svg" style="width:50px;height:50px;">
+                                                  <img src="https://image.flaticon.com/icons/png/512/858/858137.png" style="width:50px;height:50px;">
                                                   </h2>
                                               <p>Manage Trainee</p>
                                           </center>
@@ -159,14 +177,14 @@
                               </a>
                           </div>
                           <div class="col">
-                              <a href="" style="text-decoration: none;">
+                              <a href="/appointment_all" style="text-decoration: none;">
                                   <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
                                       <div class="card-body">
                                           <center>
                                               <h2 class="card-title">
-                                                  <img src="https://image.flaticon.com/icons/svg/327/327013.svg" style="width:50px;height:50px;">
+                                                  <img src="https://image.flaticon.com/icons/png/512/934/premium/934663.png" style="width:50px;height:50px;">
                                               </h2>
-                                              <p>View Progress</p>
+                                              <p>Manage Appointment</p>
                                           </center>
                                       </div>
                                   </div>

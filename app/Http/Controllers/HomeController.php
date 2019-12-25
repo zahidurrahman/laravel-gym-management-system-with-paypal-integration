@@ -7,6 +7,7 @@ use DemeterChain\A;
 use Illuminate\Http\Request;
 use App\User;
 use Auth;
+use Illuminate\Support\Facades\Hash;
 class HomeController extends Controller
 {
     /**
@@ -40,6 +41,21 @@ class HomeController extends Controller
 
 
     }
+    public function add_user(Request $request)
+    {
+        User::create([
+            'name' => $request->input('name'),
+            'email' =>$request->input('email'),
+            'phone' => $request->input('phone'),
+            'address' => $request->input('address'),
+            'role' => $request->input('role'),
+            'user_status' =>'1',
+            'password' => Hash::make($request->input('password')),
+        ]);
+
+        return redirect('/manage_user')->with('status','User Successfully Added');
+
+    }
 
     public function bann_user($id)
     {
@@ -62,6 +78,23 @@ class HomeController extends Controller
       $ban = User::find($id);
       $ban->delete();
       return redirect('/manage_user')->with('status','User Successfully Deleted');
+
+    }
+    public function edit_profile(Request $request)
+    {
+
+        $id = Auth::id();
+        $ac = User::find($id);
+        $ac->name = $request->input('name');
+        $ac->email =$request->input('email');
+        $ac->phone =$request->input('phone');
+        $ac->address = $request->input('address');
+        if($request->input('password')!=Null){
+            $ac->password = Hash::make($request->input('password'));
+        }
+        $ac->save();
+
+        return redirect('/edit_profile')->with('status','Profile Successfully Updated');
 
     }
 

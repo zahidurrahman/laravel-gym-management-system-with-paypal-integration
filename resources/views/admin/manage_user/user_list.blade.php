@@ -18,7 +18,8 @@
                         <?php
                         $get_unit = DB::table('users')->get();
                         ?>
-
+                          <a href="/add_user" style="float:right;"><button type="button" class="btn btn-success btn-sm">Add New User</button></a>
+                            <br><br>
                         <table class="table">
                             <tr>
                                 <th>Name</th>

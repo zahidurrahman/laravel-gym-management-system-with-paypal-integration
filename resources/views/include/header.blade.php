@@ -38,20 +38,18 @@
 
 	<!-- Header section -->
 	<header class="header-section">
-		<a href="home.html" class="site-logo">
+		<a href="/" class="site-logo">
 			<img src="img/logo.png" alt="">
 		</a>
 		<ul class="main-menu">
 			<li><a class="active" href="/">Home</a></li>
 			<li><a href="/about">About Us</a></li>
-			<li><a href="">Classes</a></li>
-			<li><a href="">News</a></li>
 			<li><a href="/contact">Contact</a></li>
       <li><a href="/login">My Account</a></li>
 			<li class="header-right">
 				<div class="hr-box">
 					<img src="img/location-icon.png" alt="">
-					<h6>1525  Amazing Lane, Los Angeles, CA</h6>
+					<h6>32/A Kajang Malaysia</h6>
 				</div>
 			</li>
 		</ul>
