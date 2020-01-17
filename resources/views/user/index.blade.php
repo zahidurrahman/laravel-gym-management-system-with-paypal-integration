@@ -81,9 +81,9 @@
         <div class="add-text">
           <h2>Pay now and get a 25% <span>Discount</span></h2>
           <ul>
-            <li><img src="img/check-icon.png" alt="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li><img src="img/check-icon.png" alt="">Risus commodo viverra maecenas accumsan lacus vel facilisis.</li>
-            <li><img src="img/check-icon.png" alt="">Ipsum dolor sit amet, consectetur adipiscing elit, sed do.</li>
+            <li><img src="img/check-icon.png" alt="">Well Trained Trainer</li>
+            <li><img src="img/check-icon.png" alt="">Intensive Career</li>
+            <li><img src="img/check-icon.png" alt="">Lower Cost</li>
           </ul>
           <a href="/register" class="site-btn">Become a Member</a>
         </div>
@@ -139,7 +139,7 @@
             <img src="img/trainers/1.jpg" alt="">
           </div>
           <h4>Michael Smith</h4>
-          <p>Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum nec sapien.</p>
+          <p>He is a wonderful trainer.He will take care of your health status</p>
         </div>
       </div>
       <div class="col-lg-3 col-sm-6">
@@ -148,7 +148,7 @@
             <img src="img/trainers/2.jpg" alt="">
           </div>
           <h4>Jessica Black</h4>
-          <p>Ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare.</p>
+          <p>She is awesome.She will take care of you with so soft hand</p>
         </div>
       </div>
       <div class="col-lg-3 col-sm-6">
@@ -157,7 +157,7 @@
             <img src="img/trainers/3.jpg" alt="">
           </div>
           <h4>James Brown</h4>
-          <p>Libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien.</p>
+          <p>He is a wonderful trainer.He will take care of your health status.</p>
         </div>
       </div>
       <div class="col-lg-3 col-sm-6">
@@ -166,7 +166,7 @@
             <img src="img/trainers/4.jpg" alt="">
           </div>
           <h4>Paula Carlton</h4>
-          <p>Sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermen-tum ornare.</p>
+          <p>She is awesome.She will take care of you with so soft hand</p>
         </div>
       </div>
     </div>

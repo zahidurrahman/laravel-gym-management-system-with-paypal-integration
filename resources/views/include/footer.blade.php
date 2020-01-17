@@ -8,7 +8,7 @@
           <div class="fw-info-box">
             <img src="img/icons/1.png" alt="">
             <div class="fw-info-text">
-              <p>1525  Awesome Lane, Los Angeles, CA</p>
+              <p>Cyberjaya,Malaysia</p>
             </div>
           </div>
         </div>
@@ -19,8 +19,8 @@
           <div class="fw-info-box">
             <img src="img/icons/2.png" alt="">
             <div class="fw-info-text">
-              <p>+1 (603)535-4592</p>
-              <p>+1 (603)535-4556</p>
+              <p>+6114587585</p>
+              <p>+621548558</p>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
     <div class="row">
       <div class="col-md-6 order-2 order-md-1">
         <div class="copyright"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
       </div>
       <div class="col-md-6 order-1 order-md-2">

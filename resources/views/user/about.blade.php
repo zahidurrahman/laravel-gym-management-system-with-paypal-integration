@@ -20,12 +20,47 @@
     <div class="row">
       <div class="col-lg-4">
         <div class="about-text">
-          <p>Donec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula frin-gilla ut vitae orci. Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. Proin vulputate congue rutrum. Fusce lobor-tis a enim eget tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+          <p>
+            In October 2003, Wavelet Solutions Sdn. Bhd.
+             was established with the goal to become a
+             leading ERP solutions provider for small
+             and medium enterprises (SMEs).
+             The development, implementation
+             and marketing of the web-based &
+             cloud ERP system, known as Enterprise
+             Management Portal (EMP) is at
+             the core of the Wavelet business, which has
+             expanded beyond the borders and captured
+             attention of the clients in Malaysia,
+              Hong Kong, Singapore, Thailand, and
+              Brunei. As a cost-effective web-based
+              software, EMP has become a long-awaited ERP
+              system solution for businesses in a wide
+              range of industries, including retail chain stores,
+               trading and distribution.
+           </p>
         </div>
       </div>
       <div class="col-lg-4">
         <div class="about-text">
-          <p>Suspendisse potenti. Ut gravida mattis magna, non varius lorem sodales nec. In libero orci, onec nec sapien in urna fermentum ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. Proin vulputate congue rutrum. Fusce lobortis a enim eget tempus.</p>
+          <p>
+            In October 2003, Wavelet Solutions Sdn. Bhd.
+             was established with the goal to become a
+             leading ERP solutions provider for small
+             and medium enterprises (SMEs).
+             The development, implementation
+             and marketing of the web-based &
+             cloud ERP system, known as Enterprise
+             Management Portal (EMP) is at
+             the core of the Wavelet business, which has
+             expanded beyond the borders and captured
+             attention of the clients in Malaysia,
+              Hong Kong, Singapore, Thailand, and
+              Brunei. As a cost-effective web-based
+              software, EMP has become a long-awaited ERP
+              system solution for businesses in a wide
+              range of industries, including retail chain stores,
+               trading and distribution.</p>
         </div>
       </div>
       <div class="col-lg-4">

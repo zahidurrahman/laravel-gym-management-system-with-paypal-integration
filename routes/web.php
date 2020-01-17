@@ -10,6 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/fitbit', function () {
+    return view('user.fitbit.view');
+});
 
 Route::get('/', function () {
     return view('user.index');
@@ -81,8 +84,21 @@ Route::get('/assign_trainer', function () {
     return view('admin.assign.assign_trainer');
 });
 Route::post('/assign', 'AssignController@assign_trainer')->name('assign');
+Route::get('/edit_trainer', function () {
+    return view('admin.assign.edit_trainer');
+});
+Route::post('/edit_trainer', 'AssignController@edit_trainer')->name('edit_trainer');
 
+Route::get('/admin_view_appointment', function () {
+    return view('admin.appointment.view');
+});
 //trainer ReflectionFunctionAbstract
+Route::get('/bmi_details', function () {
+    return view('trainer.bmi_details');
+});
+Route::get('/fitbit_details', function () {
+    return view('trainer.fitbit_details');
+});
 Route::get('/manage_trainee', function () {
     return view('trainer.manage_trainee');
 });

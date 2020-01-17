@@ -29,7 +29,7 @@
                                 <th>Name</th>
                                 <th>Email</th>
                                 <th>Phone</th>
-                                <th>Addres</th>
+                                <th>Address</th>
                                 <th>Role</th>
                                 <th>Assign Status</th>
                                 <th>Traniner Name</th>
@@ -80,9 +80,12 @@
 
                                     </td>
                                     <td>
-
-                                        <a class="btn btn-info btn-sm" href="{{'/assign_trainer?id='.$app->id}}">Add Trainer</a>
-
+                                      @if($assign_status!=Null)
+                                        <a class="btn btn-info btn-sm" href="{{'/edit_trainer?id='.$trainer->id}}">Edit Trainer</a>
+                                      @endif
+                                      @if($assign_status==Null)
+                                        <a class="btn btn-warning btn-sm" href="{{'/assign_trainer?id='.$app->id}}">Add Trainer</a>
+                                      @endif
 
                                     </td>
                                 </tr>

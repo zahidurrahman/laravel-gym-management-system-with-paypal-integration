@@ -54,9 +54,10 @@
                                       @endif
                                     </td>
                                     <td>
-
-                                        <a class="btn btn-primary btn-sm" href="/meal_details?id={{$app->user_id}}" style="margin-bottom:5px;">View Meal Details</a>
-                                        <a class="btn btn-success btn-sm" href="/workout_details?id={{$app->user_id}}">View Workout Details</a>
+                                        <a class="btn btn-warning btn-sm" href="/bmi_details?id={{$app->user_id}}">BMI Progress</a>
+                                        <a class="btn btn-primary btn-sm" href="/meal_details?id={{$app->user_id}}" style="margin-bottom:5px;">Meal Details</a>
+                                        <a class="btn btn-success btn-sm" href="/workout_details?id={{$app->user_id}}">Workout Details</a>
+                                        <a class="btn btn-info btn-sm" href="/fitbit_details?id={{$app->user_id}}">FITBIT Progress</a>
 
 
                                     </td>

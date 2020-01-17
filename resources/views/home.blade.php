@@ -68,6 +68,22 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="col">
+                                <a href="/admin_view_appointment" style="text-decoration: none">
+                                    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+
+                                        <div class="card-body">
+                                            <center>
+                                                <h2 class="card-title">
+                                                    <img src="https://image.flaticon.com/icons/png/512/858/858137.png" style="width:50px;height:50px;">
+                                                    </h2>
+                                                <p>View Appoinments</p>
+                                            </center>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
 
                         @endif
@@ -149,6 +165,22 @@
                                                         <img src="https://image.flaticon.com/icons/png/512/934/premium/934663.png" style="width:50px;height:50px;">
                                                     </h2>
                                                     <p>Manage Appointment</p>
+                                                </center>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col">
+                                    <a href="/fitbit" style="text-decoration: none">
+                                        <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+
+                                            <div class="card-body">
+                                                <center>
+                                                    <h2 class="card-title">
+                                                        <img src="https://image.flaticon.com/icons/svg/763/763812.svg" style="width:50px;height:50px;">
+                                                    </h2>
+                                                    <p>FitBit Details</p>
                                                 </center>
 
                                             </div>

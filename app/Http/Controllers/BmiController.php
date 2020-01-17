@@ -38,9 +38,9 @@ class BmiController extends Controller
     public function add_bmi(Request $request)
     {
       //check is alrady there or not
-      $get=Bmi::where('user_id',Auth::id())->first();
+      //$get=Bmi::where('user_id',Auth::id())->first();
 
-      if($get==Null){
+    //  if($get==Null){
 
         $w=$request->Input('weight');
         $h=$request->Input('height');
@@ -52,9 +52,9 @@ class BmiController extends Controller
         $meal->bmi=$bmi;
         $meal->save();
         return redirect('/bmi_all')->with('status','Added Successfully ');
-      }else{
-           return redirect('/bmi_all')->with('error','Already Added');
-       }
+    //  }else{
+           //return redirect('/bmi_all')->with('error','Already Added');
+      // }
 
     }
     public function edit_bmi(Request $request)

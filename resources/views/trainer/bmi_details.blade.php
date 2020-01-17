@@ -231,7 +231,7 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <a href="/home"><button class="btn btn-warning"><i class="fa fa-arrow-left" ></i>&nbsp;Back</button></a>
+                        <a href="/manage_trainee"><button class="btn btn-warning"><i class="fa fa-arrow-left" ></i>&nbsp;Back</button></a>
                     </div>
 
                     <div class="card-body">
@@ -246,15 +246,16 @@
                           </div>
                       @endif
                         <?php
-                          $appb = DB::table('bmis')->where('user_id',Auth::id())->orderBy('id','DESC')->get();
+                        $id=$_GET['id'];
+                          $appb = DB::table('bmis')->where('user_id',$id)->orderBy('id','DESC')->get();
 
                         ?>
 
-                        <a class="btn btn-success btn-sm" style="float:right;" href="/add_bmi">Add BMI</a>
+
                         <br>  <br>
                         <table class="table">
                             <tr>
-                                <th>Weight</th>
+                                <th>Wight</th>
                                 <th>Height</th>
                                 <th>BMI Kg/M<sup>2</sup></th>
                                 <th>Created Date</th>
@@ -304,7 +305,7 @@
             </div>
         </div>
         <?php
-          $app2 = DB::table('bmis')->where('user_id',Auth::id())->orderBy('id','DESC')->first();
+          $app2 = DB::table('bmis')->where('user_id',$id)->orderBy('id','DESC')->first();
         ?>
         @if($app2!=null)
         <div class="container-fluid">

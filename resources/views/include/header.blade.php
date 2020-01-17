@@ -49,7 +49,7 @@
 			<li class="header-right">
 				<div class="hr-box">
 					<img src="img/location-icon.png" alt="">
-					<h6>32/A Kajang Malaysia</h6>
+					<h6>Cyberjaya,MMU, Malaysia</h6>
 				</div>
 			</li>
 		</ul>

@@ -47,9 +47,21 @@ class AssignController extends Controller
           return redirect('/add_trainer')->with('status','Added Successfully ');
         }
 
+
+
     }
 
-  
+    public function edit_trainer(Request $request)
+    {
+
+          $assign=Assign::find($request->Input('id'));
+          $assign->trainer_id=$request->Input('trainer_id');
+          $assign->save();
+          return redirect('/add_trainer')->with('status','Updated Successfully ');
+
+    }
+
+
 
     /**
      * Display the specified resource.

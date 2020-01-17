@@ -25,7 +25,7 @@
                                 <th>Name</th>
                                 <th>Email</th>
                                 <th>Phone</th>
-                                <th>Addres</th>
+                                <th>Address</th>
                                 <th>Role</th>
                                 <th>User Status</th>
                                 <th width="280px">Actions</th>
